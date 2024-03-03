@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110, 163, 110);
+}
+#panel{
+    overflow: hidden;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+}
+#ptop{
+    padding: 0px 30%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    display: flex;
+   width: 100%; 
+   height: 100px;
+   background-color: rgb(61, 134, 61);
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px ;
+    
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+.box{
+    color: rgb(82, 169, 64);
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#pbtm{
+    display: flex;
+    gap:10px ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+.bubble{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(10, 71, 10);
+
+}
+.bubble:hover{
+    background-color: rgb(20, 39, 14);
+    cursor: pointer;
+}
